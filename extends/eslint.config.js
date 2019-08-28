@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./custom/eslint-config-singh/withPrettier']
+  extends: ['../withPrettier']
 }
