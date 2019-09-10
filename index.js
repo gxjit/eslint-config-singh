@@ -7,7 +7,7 @@ module.exports = {
     'eslint-config-airbnb-base/rules/variables',
     'eslint-config-airbnb-base/rules/es6',
     'eslint-config-airbnb-base/rules/strict',
-    './customOverwrites'
+    './base-overwrites'
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018, // ES9

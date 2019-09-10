@@ -4,12 +4,20 @@
   "description": "Eslint Config froked from airbnb base",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["eslint","config","eslintconfig"],
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig"
+  ],
   "author": "Gurjit Singh",
   "license": "MIT",
   "dependencies": {
     "confusing-browser-globals": "^1.0.8",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5.16.0 || ^6.1.0",
+    "prettier": ">= 1.13.0 || ^1.16.4"
   }
 }
