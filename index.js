@@ -17,11 +17,11 @@ module.exports = {
       impliedStrict: true,
       generators: true,
       objectLiteralDuplicateProperties: false
-    },
-    env: {
-      es6: true,
-      browser: true,
-      node: true
     }
+  },
+  env: {
+    es6: true,
+    browser: true,
+    node: true
   }
 }
