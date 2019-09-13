@@ -168,7 +168,12 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-single'],
 
     // require or disallow use of semicolons instead of ASI
-    semi: ['error', 'never']
+    semi: ['error', 'never'],
+
+    // disallow confusing multiline expressions (for relying on ASI)
+    'no-unexpected-multiline': 'error',
+
+    // disallow unreachable code after return, throw, continue, and break (for ASI)
+    'no-unreachable': 'error'
   }
 }
-
